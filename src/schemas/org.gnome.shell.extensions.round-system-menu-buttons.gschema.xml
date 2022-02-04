@@ -1,0 +1,69 @@
+
+<schemalist>
+<schema id="org.gnome.shell.extensions.round-system-menu-buttons" path="/org/gnome/shell/extensions/round-system-menu-buttons/">
+
+<key name="buttons-order" type="ai">
+<default>[ 1, 2, 3, 4, 5, 6, 7, 8 ]</default>
+<summary>Default Order</summary>
+<description>Default Order</description>
+</key>
+
+<key name="use-custom-color" type="b">
+<default>false</default>
+<summary>Turn ON if you wish to use Custom Color.</summary>
+<description>Custom Color</description>
+</key>
+
+<key name="color" type="s">
+<default>'#000000'</default>
+<summary>color</summary>
+<description>color</description>
+</key>
+  
+<key name="icon-size" type="i">
+<range min="12" max="20" />
+<default>16</default>
+<summary>icon size</summary>
+<description>icon size</description>
+</key>
+
+<key name="padding" type="i">
+<range min="0" max="16" />
+<default>8</default>
+<summary>padding</summary>
+<description>icon size</description>
+</key>
+
+<key name="border-radius" type="i">
+<range min="0" max="36" />
+<default>16</default>
+<summary>border radius</summary>
+<description>icon size</description>
+</key>
+
+<key name="remove-suspend-button" type="b">
+<default>false</default>
+<summary>Remove Suspend Button</summary>
+<description>Remove Suspend Button</description>
+</key>
+
+<key name="remove-logout-button" type="b">
+<default>false</default>
+<summary>Remove Logout Button</summary>
+<description>Remove Logout Button</description>
+</key>
+
+<key name="remove-restart-button" type="b">
+<default>false</default>
+<summary>Remove Restart Button</summary>
+<description>Remove Restart Button</description>
+</key>
+
+<key name="remove-poweroff-button" type="b">
+<default>false</default>
+<summary>Remove poweroff Button</summary>
+<description>Remove poweroff Button</description>
+</key>
+
+</schema>
+</schemalist>

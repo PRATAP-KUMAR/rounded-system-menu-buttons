@@ -1,0 +1,13 @@
+/* Add your custom extension styling here */
+
+.rounded-menu-buttons {
+  background-color: #353535
+  }
+
+.rounded-menu-buttons:hover, .rounded-menu-buttons:focus {
+  background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+.rounded-menu-buttons:active {
+  background-color: #1b6acb;
+  }
